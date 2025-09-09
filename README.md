@@ -3,6 +3,13 @@
 ## Overview
 Deploys a simple ML model to Kubernetes using Terraform + Helm.
 
+## Project Structure
+
+ml-service/
+├── app.py
+├── requirements.txt
+└── Dockerfile
+
 ## Setup
 1. Clone repo
 2. `terraform init && terraform apply`
@@ -13,3 +20,5 @@ Deploys a simple ML model to Kubernetes using Terraform + Helm.
 
 ## Stack
 - Python, Terraform, Helm, Kubernetes
+
+
